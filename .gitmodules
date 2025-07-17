@@ -1,37 +1,37 @@
 [submodule "CryptoPkg/Library/OpensslLib/openssl"]
 	path = CryptoPkg/Library/OpensslLib/openssl
-	url = https://github.com/openssl/openssl
+	url = https://gitee.com/ccc_lizzy/openssl
 [submodule "UnitTestFrameworkPkg/Library/CmockaLib/cmocka"]
 	path = UnitTestFrameworkPkg/Library/CmockaLib/cmocka
-	url = https://github.com/tianocore/edk2-cmocka.git
+	url = https://gitee.com/ccc_lizzy/edk2-cmocka.git
 [submodule "MdeModulePkg/Universal/RegularExpressionDxe/oniguruma"]
 	path = MdeModulePkg/Universal/RegularExpressionDxe/oniguruma
-	url = https://github.com/kkos/oniguruma
+	url = https://gitee.com/ccc_lizzy/oniguruma
 [submodule "MdeModulePkg/Library/BrotliCustomDecompressLib/brotli"]
 	path = MdeModulePkg/Library/BrotliCustomDecompressLib/brotli
-	url = https://github.com/google/brotli
+	url = https://gitee.com/ccc_lizzy/brotli
 [submodule "BaseTools/Source/C/BrotliCompress/brotli"]
 	path = BaseTools/Source/C/BrotliCompress/brotli
-	url = https://github.com/google/brotli
+	url = https://gitee.com/ccc_lizzy/brotli
 	ignore = untracked
 [submodule "RedfishPkg/Library/JsonLib/jansson"]
 	path = RedfishPkg/Library/JsonLib/jansson
-	url = https://github.com/akheron/jansson
+	url = https://gitee.com/ccc_lizzy/jansson
 [submodule "UnitTestFrameworkPkg/Library/GoogleTestLib/googletest"]
 	path = UnitTestFrameworkPkg/Library/GoogleTestLib/googletest
-	url = https://github.com/google/googletest.git
+	url = https://gitee.com/ccc_lizzy/googletest.git
 [submodule "UnitTestFrameworkPkg/Library/SubhookLib/subhook"]
 	path = UnitTestFrameworkPkg/Library/SubhookLib/subhook
-	url = https://github.com/tianocore/edk2-subhook.git
+	url = https://gitee.com/ccc_lizzy/edk2-subhook.git
 [submodule "MdePkg/Library/BaseFdtLib/libfdt"]
 	path = MdePkg/Library/BaseFdtLib/libfdt
-	url = https://github.com/devicetree-org/pylibfdt.git
+	url = https://gitee.com/ccc_lizzy/pylibfdt.git
 [submodule "MdePkg/Library/MipiSysTLib/mipisyst"]
 	path = MdePkg/Library/MipiSysTLib/mipisyst
-	url = https://github.com/MIPI-Alliance/public-mipi-sys-t.git
+	url = https://gitee.com/ccc_lizzy/public-mipi-sys-t.git
 [submodule "CryptoPkg/Library/MbedTlsLib/mbedtls"]
 	path = CryptoPkg/Library/MbedTlsLib/mbedtls
-	url = https://github.com/ARMmbed/mbedtls
+	url = https://gitee.com/ccc_lizzy/mbedtls
 [submodule "SecurityPkg/DeviceSecurity/SpdmLib/libspdm"]
 	path = SecurityPkg/DeviceSecurity/SpdmLib/libspdm
-	url = https://github.com/DMTF/libspdm.git
+	url = https://gitee.com/ccc_lizzy/libspdm.git
