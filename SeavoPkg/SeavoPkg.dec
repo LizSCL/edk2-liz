@@ -1,0 +1,12 @@
+## @file
+#  SEAVO board utility package.
+#
+#  SPDX-License-Identifier: BSD-2-Clause-Patent
+##
+
+[Defines]
+  DEC_SPECIFICATION              = 0x00010005
+  PACKAGE_NAME                   = SeavoPkg
+  PACKAGE_GUID                   = B7B5C32D-1463-4E1F-8A0C-18F27A30B643
+  PACKAGE_VERSION                = 0.1
+

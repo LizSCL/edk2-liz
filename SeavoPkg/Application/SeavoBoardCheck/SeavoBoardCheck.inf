@@ -1,0 +1,26 @@
+## @file
+#  SEAVO board detection UEFI application.
+#
+#  SPDX-License-Identifier: BSD-2-Clause-Patent
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = SeavoBoardCheck
+  FILE_GUID                      = 6F1A1F8E-F886-41F2-8507-0C87E4B76748
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  SeavoBoardCheck.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  ShellPkg/ShellPkg.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+  IoLib
+  ShellLib
