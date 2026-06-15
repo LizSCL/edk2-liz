@@ -67,6 +67,9 @@
 
   SafeIntLib|MdePkg/Library/BaseSafeIntLib/BaseSafeIntLib.inf
 
+[LibraryClasses.X64]
+  PciLib|MdePkg/Library/UefiPciLibPciRootBridgeIo/UefiPciLibPciRootBridgeIo.inf
+
 [PcdsFixedAtBuild]
   gEfiMdePkgTokenSpaceGuid.PcdDebugPropertyMask|0xFF
   gEfiMdePkgTokenSpaceGuid.PcdUefiLibMaxPrintBufferSize|16000
@@ -132,6 +135,7 @@
 
   ShellPkg/Application/AcpiViewApp/AcpiViewApp.inf
   ShellPkg/Application/ShellCTestApp/ShellCTestApp.inf
+  ShellPkg/Application/TR5511Tool/TR5511Tool.inf
   ShellPkg/Application/ShellExecTestApp/SA.inf
   ShellPkg/Application/ShellSortTestApp/ShellSortTestApp.inf
 
