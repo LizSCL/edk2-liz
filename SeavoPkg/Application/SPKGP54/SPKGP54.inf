@@ -1,0 +1,27 @@
+## @file
+#  GP54 speaker test utility for IT8786 SIO.
+#
+#  SPDX-License-Identifier: BSD-2-Clause-Patent
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = SPKGP54
+  FILE_GUID                      = A57AED08-F20A-4E8C-A693-F8595A7ABB62
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = ShellCEntryLib
+
+[Sources]
+  SPKGP54.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  ShellPkg/ShellPkg.dec
+
+[LibraryClasses]
+  BaseLib
+  IoLib
+  ShellCEntryLib
+  UefiBootServicesTableLib
+  UefiLib
